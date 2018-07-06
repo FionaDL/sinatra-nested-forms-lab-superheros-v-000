@@ -4,7 +4,7 @@ class Superhero
 
     def initialize(superhero)
       @name = superhero[:name]
-      @motto = superhero[:power]
+      @power = superhero[:power]
       @biography = superhero[:biography]
       @@all << self
     end
