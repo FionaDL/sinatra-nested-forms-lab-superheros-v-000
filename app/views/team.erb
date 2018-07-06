@@ -1,11 +1,11 @@
 <h1>Here is your new team.</h1>
 
   <h2>Team</h2>
-    <h3>Team Name:<%=@team.name%></h3>
-    <h3>Team Motto:<%=@team.motto%></h3>
+    <h3>Team Name: <%=@team.name%></h3>
+    <h3>Team Motto: <%=@team.motto%></h3>
   <h2>Superheroes</h2>
     <% @superhero.each do |superhero|%>
-    <h3>Hero Name:<%=superhero.name%></h3>
-    <h3>Hero Power:<%=superhero.power%></h3>
-    <h3>Team Biography:<%=superhero.biography%></h3><br>
+    <h3>Hero Name: <%=superhero.name%></h3>
+    <h3>Hero Power: <%=superhero.power%></h3>
+    <h3>Team Biography: <%=superhero.biography%></h3><br>
     <%end%>
